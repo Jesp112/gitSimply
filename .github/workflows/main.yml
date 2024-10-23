@@ -11,8 +11,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: jesperrechdatamatiker.dk
-        username: freja1bamse@hotmail.com
-        password: Vinyl1Scratch
+        server: nt35.unoeuro.com
+        username: jesperrechdatam.dk
+        password: 2fcw6g5dbHzexpkmAr93
         server-dir: git/
         delete: true
