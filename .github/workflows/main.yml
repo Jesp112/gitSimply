@@ -14,5 +14,5 @@ jobs:
         server: nt35.unoeuro.com
         username: jesperrechdatam.dk
         password: 2fcw6g5dbHzexpkmAr93
-        server-dir: git/
+        server-dir: vsgittosimply/
         delete: true
