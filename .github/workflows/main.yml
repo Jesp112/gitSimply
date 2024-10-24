@@ -11,8 +11,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: nt35.unoeuro.com
-        username: jesperrechdatam.dk
-        password: ${{my-secret-password.my_secret_password}}
+        server: ${{ secrets.SECRET_SERVER }}
+        username: ${{ secrets.SECRET_USER }}
+        password: ${{secrets.SECRET_PWD}}
         server-dir: vsgittosimply/
         delete: true
