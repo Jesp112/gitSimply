@@ -13,6 +13,6 @@ jobs:
       with:
         server: nt35.unoeuro.com
         username: jesperrechdatam.dk
-        password: 2fcw6g5dbHzexpkmAr93
+        password: ${{my_secret_password}}
         server-dir: vsgittosimply/
         delete: true
